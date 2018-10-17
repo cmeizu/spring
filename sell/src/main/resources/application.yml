@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+server:
+  context-path: /sell
+
+wechat:
+  mpAppId: wxd898fcb01713c658
+  mpAppSecret: 705930de57c150d185a90f4971b5f193
+  openAppId:
+  openAppSecret:
+  mchId: 1483469312
+  mchKey: C5245D70627C1F8E9964D494B0735025
+  notifyUrl: http://chwm.natapp1.cc/sell/pay/notify
+  mkeypath: F:\WorkSpace\sell\src\main\resources\static\h5.p12
